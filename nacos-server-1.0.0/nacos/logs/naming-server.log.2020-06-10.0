@@ -1,0 +1,320 @@
+2020-06-10 11:35:48,858 INFO listen for service meta change
+
+2020-06-10 11:35:57,174 INFO [SERVER-INIT] got port: 8848
+
+2020-06-10 11:35:57,174 INFO [SERVER-INIT] got path: /nacos
+
+2020-06-10 11:36:08,098 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2020-06-10 11:36:25,324 INFO [HEALTH-CHECK] health check is false
+
+2020-06-10 11:37:08,104 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-06-10 11:41:25,328 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 11:43:40,522 INFO creating empty service public:DEFAULT_GROUP@@hui_shop
+
+2020-06-10 11:43:40,540 WARN cluster: DEFAULT not found, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.20.6.209#8874#DEFAULT#DEFAULT_GROUP@@hui_shop","ip":"10.20.6.209","lastBeat":1591760620511,"marked":false,"metadata":{},"port":8874,"serviceName":"DEFAULT_GROUP@@hui_shop","tenant":"","weight":1}, will create new cluster with default configuration.
+
+2020-06-10 11:43:40,568 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@hui_shop, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"10.20.6.209#8874#DEFAULT#DEFAULT_GROUP@@hui_shop","ip":"10.20.6.209","lastBeat":1591760620511,"marked":false,"metadata":{},"port":8874,"serviceName":"DEFAULT_GROUP@@hui_shop","tenant":"","weight":1}]}
+
+2020-06-10 11:46:25,330 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 11:51:25,332 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 11:54:30,625 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@hui_shop, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceId":"10.20.6.209#8874#DEFAULT#DEFAULT_GROUP@@hui_shop","ip":"10.20.6.209","lastBeat":1591761240371,"marked":false,"metadata":{},"port":8874,"serviceName":"DEFAULT_GROUP@@hui_shop","tenant":"","weight":1}
+
+2020-06-10 11:54:31,016 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@hui_shop, value: {"cachedChecksum":"","instanceList":[]}
+
+2020-06-10 11:56:25,333 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:01:25,335 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:06:25,335 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:11:25,353 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:16:25,356 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:21:25,358 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:26:25,361 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:31:25,364 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:36:25,365 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:41:25,369 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:46:25,372 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:51:25,375 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 12:56:25,379 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:01:25,382 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:06:25,385 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:11:25,388 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:16:25,391 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:21:25,393 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:26:25,394 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:31:25,397 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:36:25,400 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:41:25,403 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:46:25,406 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:51:25,409 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 13:56:25,414 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:01:25,417 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:06:25,421 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:11:25,424 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:16:25,427 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:21:25,430 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:26:25,433 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:31:25,437 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:36:25,440 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:41:25,443 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:46:25,447 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:51:25,450 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 14:56:25,454 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:01:25,455 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:06:25,458 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:11:25,460 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:16:25,464 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:21:25,466 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:26:25,469 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:31:25,472 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:36:25,475 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:41:25,477 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:46:25,480 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:51:25,481 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 15:56:25,486 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:01:25,489 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:06:25,492 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:11:25,496 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:16:25,499 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:21:25,502 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:26:25,504 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:31:25,507 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:36:25,508 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:41:25,512 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:46:25,514 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:51:25,517 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 16:55:38,961 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"10.20.6.209","key":"10.20.6.209:8848","lastRefTime":1591779338960,"lastRefTimeStr":"2020-06-10 16:55:38","servePort":8848,"site":"unknown","weight":2}, last: {"adWeight":0,"alive":false,"ip":"10.20.6.209","key":"10.20.6.209:8848","lastRefTime":1591779279664,"lastRefTimeStr":"2020-06-10 16:54:39","servePort":8848,"site":"unknown","weight":2}
+
+2020-06-10 16:57:09,813 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:02:09,601 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:07:08,911 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:12:08,912 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:17:08,921 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:22:08,924 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:27:08,925 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:32:08,932 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:37:08,941 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:42:08,944 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:47:08,945 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:52:08,950 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 17:57:08,953 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:02:08,954 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:07:08,955 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:12:08,953 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:17:08,953 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:22:08,957 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:27:08,968 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:32:08,974 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:37:08,979 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:42:08,976 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:47:08,974 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:52:08,975 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 18:57:08,975 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:02:08,977 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:07:08,977 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:12:08,979 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:17:08,980 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:22:08,982 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:27:08,983 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:32:08,986 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:37:08,989 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:42:08,995 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:47:08,999 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:52:09,009 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 19:57:09,015 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:02:09,020 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:07:09,024 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:12:09,027 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:17:09,030 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:22:09,036 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:27:09,037 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:32:09,038 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:37:09,039 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:42:09,041 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:47:09,042 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:52:09,043 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 20:57:09,042 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:02:09,042 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:07:09,041 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:12:09,040 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:17:09,043 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:22:09,044 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:27:09,048 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:32:09,051 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:37:09,056 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:42:09,063 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:47:09,068 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:52:09,070 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 21:57:09,072 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:02:09,076 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:07:09,079 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:12:09,081 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:17:09,083 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:22:09,087 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:27:09,088 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:32:09,089 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:37:09,090 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:42:09,090 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:47:09,091 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:52:09,092 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 22:57:09,095 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:02:09,096 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:07:09,098 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:12:09,101 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:17:09,102 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:22:09,105 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:27:09,108 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:32:09,109 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:37:09,111 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:42:09,112 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:47:09,114 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:52:09,119 INFO [HEALTH-CHECK] health check is true
+
+2020-06-10 23:57:09,125 INFO [HEALTH-CHECK] health check is true
+
